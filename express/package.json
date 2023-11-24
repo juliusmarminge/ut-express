@@ -1,0 +1,19 @@
+{
+  "name": "express",
+  "private": true,
+  "scripts": {
+    "dev": "bun --hot src/server.ts"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "uploadthing": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20",
+    "typescript": "^5.3.2"
+  }
+}
